@@ -1,0 +1,15 @@
+.toolbar {
+    display: flex;
+    justify-content: center;
+
+    .toolbar-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+     .menu-icon {
+        color: var(--mat-sys-on-primary);
+    }
+}
