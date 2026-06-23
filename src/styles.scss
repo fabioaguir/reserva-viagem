@@ -2,6 +2,7 @@
 @use '@angular/material' as mat;
 @use 'styles/theme-colors' as theme-colors;
 @use 'styles/overrides/toolbar.scss';
+@use 'styles/common/container.scss';
 
 html {
   @include mat.theme((

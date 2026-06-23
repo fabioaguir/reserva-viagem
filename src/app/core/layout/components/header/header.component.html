@@ -1,6 +1,8 @@
 <header>
     <mat-toolbar class="toolbar">
+        @if (isMobile()) {
         <app-toggle-sidenav-menu></app-toggle-sidenav-menu>
+        }
         <div class="toolbar-content">
             <span>Reserva de Viagem</span>
         </div>
