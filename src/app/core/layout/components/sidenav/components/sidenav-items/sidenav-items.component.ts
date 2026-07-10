@@ -18,7 +18,7 @@ export class SidenavItemsComponent {
       label: "Home", url: "/"
     },
     {
-      label: "Destinos", url: "/destinos"
+      label: "Destinos", url: "/destiny"
     },
     {
       label: "Excursões", url: "/excursoes"

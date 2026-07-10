@@ -8,6 +8,10 @@ export const routes: Routes = [
             {
                 path: '',
                 loadChildren: () => import('./features/home/routes')
+            },
+            {
+                path: 'destiny',
+                loadChildren: () => import('./features/destiny/routes')
             }
         ]
     }
